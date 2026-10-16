@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "com.danrus.mixin",
+  "refmap": "diwl.refmap.json",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "AbstractContainerMenuMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "AbstractContainerScreenMixin",
+    "CreativeModeInventoryScreenMixin"
+  ]
+}

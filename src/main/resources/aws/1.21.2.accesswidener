@@ -1,0 +1,14 @@
+accessWidener v2 named
+
+# --YarnMappings--
+#accessible class net/minecraft/client/gui/screen/ingame/CreativeInventoryScreen$CreativeSlot
+#accessible field net/minecraft/client/gui/screen/ingame/CreativeInventoryScreen$CreativeSlot slot Lnet/minecraft/screen/slot/Slot;
+#accessible field net/minecraft/client/gui/screen/ingame/CreativeInventoryScreen deleteItemSlot Lnet/minecraft/screen/slot/Slot;
+#accessible field net/minecraft/client/gui/screen/ingame/HandledScreen focusedSlot Lnet/minecraft/screen/slot/Slot;
+#accessible field net/minecraft/client/gui/screen/ingame/HandledScreen handler Lnet/minecraft/screen/ScreenHandler;
+
+# --OfficialMappings--
+accessible class net/minecraft/client/gui/screens/inventory/CreativeModeInventoryScreen$SlotWrapper
+accessible field net/minecraft/client/gui/screens/inventory/CreativeModeInventoryScreen$SlotWrapper target Lnet/minecraft/world/inventory/Slot;
+accessible field net/minecraft/client/gui/screens/inventory/CreativeModeInventoryScreen destroyItemSlot Lnet/minecraft/world/inventory/Slot;
+accessible field net/minecraft/client/gui/screens/inventory/AbstractContainerScreen hoveredSlot Lnet/minecraft/world/inventory/Slot;

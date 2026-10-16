@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "${id}",
+  "version": "${version}-MC-${minecraft_version}",
+  "name": "${name}",
+  "description": "Prevents your selected items from being removed via ‘Destroy Item’",
+  "authors": [
+    "Danrus110_",
+    "kreo_gen"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/project/destroy-item-white-list",
+    "sources": "https://github.com/Danrus1100/DestroyItemWhiteList",
+    "issues": "https://discord.gg/Fkp9Tqmm6F"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/diwl/diwl_new_icon.png",
+  "environment": "client",
+  "accessWidener": "aws/${minecraft_version}.accesswidener",
+  "entrypoints": {
+    "client": [
+      "com.danrus.DestroyItemWhiteList"
+    ],
+    "modmenu": [
+      "com.danrus.config.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    {
+      "config": "diwl.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.15",
+    "minecraft": "${mcdep}",
+    "fabric-api": "*",
+    "yet_another_config_lib_v3": "*"
+  }
+}

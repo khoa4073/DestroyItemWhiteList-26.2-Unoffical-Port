@@ -1,0 +1,59 @@
+{
+  "key.diwl.do_toggle_whitelist": "Toggle Slot WhiteList",
+  "key.category.diwl.keybinds": "Destroy Item White List",
+
+
+  "diwl.category.general": "General",
+  "diwl.group.visibility": "Visibility",
+
+  "diwl.option.hide_whitelisted_slots": "Hide White Listed Slots",
+  "diwl.option.hide_whitelisted_slots.description": "Hides White Listed slots frames",
+
+  "diwl.option.hide_whitelisted_items": "Hide White Listed Items",
+  "diwl.option.hide_whitelisted_items.description": "Hides White Listed items frames",
+
+  "diwl.option.show_when_bind_pressed": "Show When Key Bind pressed",
+  "diwl.option.show_when_bind_pressed.description": "Shows the frames then \"Toggle Slot WhiteList\" is pressed, even if they're hidden by the settings",
+
+  "diwl.option.show_when_di_slot_hovered": "Show When \"Destroy Items\" Hovered",
+  "diwl.option.show_when_di_slot_hovered.description": "Shows the frames then \"Destroy Items\" slot it hovered, even if they're hidden by the settings",
+
+
+  "diwl.group.behavior": "Behavior",
+
+  "diwl.option.clicks_for_force_delete": "Click For Force Delete",
+  "diwl.option.clicks_for_force_delete.description": "Number of clicks to \"Destroy Items\" to delete all items, even those in the WhiteList. If this option is 1, the function will be disabled",
+  "diwl.option.clicks_for_force_delete.1": "OFF",
+  "diwl.option.clicks_for_force_delete.2": "2 clicks",
+  "diwl.option.clicks_for_force_delete.3": "3 clicks",
+  "diwl.option.clicks_for_force_delete.4": "4 clicks",
+  "diwl.option.clicks_for_force_delete.5": "5 clicks",
+  "diwl.option.clicks_for_force_delete.6": "6 clicks",
+  "diwl.option.clicks_for_force_delete.7": "7 clicks",
+  "diwl.option.clicks_for_force_delete.8": "8 clicks",
+  "diwl.option.clicks_for_force_delete.9": "9 clicks",
+  "diwl.option.clicks_for_force_delete.10": "10 clicks",
+
+  "diwl.option.force_delete_clicks_delay": "Force Delete Clicks Delay",
+  "diwl.option.force_delete_clicks_delay.description": "Delay between clicks to \"Destroy Items\" to delete all items, even those in the WhiteList.",
+  "diwl.option.force_delete_clicks_delay.1": "1 tick",
+  "diwl.option.force_delete_clicks_delay.2": "2 ticks",
+  "diwl.option.force_delete_clicks_delay.3": "3 ticks",
+  "diwl.option.force_delete_clicks_delay.4": "4 ticks",
+  "diwl.option.force_delete_clicks_delay.5": "5 ticks",
+  "diwl.option.force_delete_clicks_delay.6": "6 ticks",
+  "diwl.option.force_delete_clicks_delay.7": "7 ticks",
+  "diwl.option.force_delete_clicks_delay.8": "8 ticks",
+  "diwl.option.force_delete_clicks_delay.9": "9 ticks",
+  "diwl.option.force_delete_clicks_delay.10": "10 ticks",
+  "diwl.option.force_delete_clicks_delay.11": "11 ticks",
+  "diwl.option.force_delete_clicks_delay.12": "12 ticks",
+  "diwl.option.force_delete_clicks_delay.13": "13 ticks",
+  "diwl.option.force_delete_clicks_delay.14": "14 ticks",
+  "diwl.option.force_delete_clicks_delay.15": "15 ticks",
+  "diwl.option.force_delete_clicks_delay.16": "16 ticks",
+  "diwl.option.force_delete_clicks_delay.17": "17 ticks",
+  "diwl.option.force_delete_clicks_delay.18": "18 ticks",
+  "diwl.option.force_delete_clicks_delay.19": "19 ticks",
+  "diwl.option.force_delete_clicks_delay.20": "20 ticks"
+}
