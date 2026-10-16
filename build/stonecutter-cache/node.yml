@@ -1,0 +1,20 @@
+metadata:
+  version: "1.21.1"
+  project: "1.21.1"
+root: "../.."
+branch:
+  id: ""
+  path: "../.."
+active: true
+parameters:
+  constants:
+    "release": true
+  swaps:
+    "mod_version": "\"1.1.0\";"
+  dependencies:
+    "fapi": !<dev.kikugie.semver.SemanticVersion>
+      components:
+      - 0
+      - 110
+      - 0
+      postModifier: "1.21.1"

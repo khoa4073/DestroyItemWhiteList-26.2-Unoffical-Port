@@ -1,0 +1,40 @@
+stonecutter: "0.6"
+vcs:
+  version: "1.21.1"
+  project: "1.21.1"
+current:
+  version: "1.21.1"
+  project: "1.21.1"
+branches:
+- id: ""
+  path: ""
+nodes:
+- metadata:
+    version: "1.21.1"
+    project: "1.21.1"
+  path: "versions/1.21.1"
+  active: true
+- metadata:
+    version: "1.21.4"
+    project: "1.21.4"
+  path: "versions/1.21.4"
+- metadata:
+    version: "1.21.5"
+    project: "1.21.5"
+  path: "versions/1.21.5"
+- metadata:
+    version: "1.21.8"
+    project: "1.21.8"
+  path: "versions/1.21.8"
+- metadata:
+    version: "1.21.10"
+    project: "1.21.10"
+  path: "versions/1.21.10"
+- metadata:
+    version: "26.2"
+    project: "26.2"
+  path: "versions/26.2"
+parameters:
+  chiseled:
+  - "chiseledBuild"
+  - "chiseledBuildAndCollect"
